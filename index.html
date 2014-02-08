@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>UUDD</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="slide.css" media="screen">
+    <script src="lib/jquery-1.9.0.min.js"></script>
+    <script src="lib/jquery-ui-1.10.0.custom.min.js"></script>
+    <script src="slide.js"></script>
+    <script id="touch-template" type="template">
+      <div id="touch">
+        <button id="start">start presentation</button>
+        <button id="done">done</button>
+        <button id="prev">prev</button>
+        <button id="next">next</button>
+      </div>
+    </script>
+  </head>
+  <body>
+    <div id="wrapper">
+
+      <div class="slide">
+        <h1>Small Projects</h1>
+        <h2>by Darius Kazemi</h2>
+        <p>(Use left/right arrow keys or touch to go forward/back. Press ESC to view as a single document.)
+      </div>
+      <div class="slide">
+        <h2>2009: 1 project, culmination of ~200 hours of research/work</h2>
+        <video controls src="images/meggy.mp4">
+      </div>
+      <div class="slide">
+        <h2>73 Projects, ~350 hours of work (4.8 hours/project)</h2>
+        <div class="projects">
+          <h3>Bots</h3>
+          <ul>
+          <li><a href="https://twitter.com/LatourSwag">Latour Swag</a></li>
+          <li><a href="https://twitter.com/darius_at_gdc">Darius at GDC</a></li>
+          <li><strong><a href="https://twitter.com/AmIRiteBot">Am I Rite Bot</a></strong></li>
+          <li><a href="https://twitter.com/ProfJocular">Professor Jocular</a></li>
+          <li><a href="https://twitter.com/SixWordSale">Six Word Sale</a></li>
+          <li><strong><a href="https://twitter.com/TwoHeadlines">Two Headlines</a></strong></li>
+          <li><a href="https://twitter.com/BoazimBot">Boazim Bot</a></li>
+          <li><a href="https://twitter.com/XOXO_ebooks">XOXO_ebooks</a></li>
+          <li><a href="https://twitter.com/TheftFromMaster">Stealing from Master</a></li>
+          <li><a href="https://twitter.com/MakeAGifOf">Make a GIF of&#8230;</a></li>
+          <li><strong><a href="https://twitter.com/AutoVids">AutoVids</a></strong></li>
+          <li><a href="https://twitter.com/FactBotCarrot">FactBot Carrot</a></li>
+          <li><a href="https://twitter.com/FactBotRutabaga">FactBot Rutabaga</a></li>
+          <li><a href="https://twitter.com/YouNeverDidThe">Kenosha Kid</a></li>
+          <li><strong><a href="https://twitter.com/AU_Prompts">Alt Universe Prompts</a></strong></li>
+          </ul>
+          <h3>Tumblrs</h3>
+          <ul>
+          <li><strong><a href="http://fork-free.tumblr.com">Fork Free</a></strong></li>
+          <li><strong><a href="http://wirescenes.tumblr.com">Scenes from The Wire</a></strong></li>
+          <li><a href="http://feb97.tumblr.com">The Feb &#8217;97 Zeitgeist</a></li>
+          <li><a href="http://new-newgirl.tumblr.com/">New New Girl</a></li>
+          <li><strong><a href="http://brand-new-aesthetics.tumblr.com/">Brand New Aesthetics</a></strong></li>
+          </ul>
+          <h3>Games</h3>
+          <ul>
+          <li><strong><a href="http://tinysubversions.com/game/formalism/">On Formalism</a></strong></li>
+          <li><strong><a href="http://tinysubversions.com/game/ywhtwt/">You Were Hallucinating the Whole Time</a></strong></li>
+          <li><a href="https://chrome.google.com/webstore/detail/spelunky-html5/mhagnkphcmpkmabhocgimoncfaihkpof?hl=en">Spelunky (Ported to HTML5 / Chrome Web Store)</a></li>
+          <li><a href="http://tinysubversions.com/game/urinaltycoon/">Urinal Tycoon</a></li>
+          <li><strong><a href="http://tinysubversions.com/game/zeno/">Zeno of Elea</a></strong></li>
+          </ul>
+        </div>
+        <div class="projects">
+          <h3>Events</h3>
+          <ul>
+          <li><strong><a href="http://tinysubversions.com/2013/11/bot-summit/">Bot Summit</a></strong></li>
+          <li><strong><a href="https://github.com/dariusk/NaNoGenMo">NaNoGenMo</a></strong></li>
+          </ul>
+          <h3>Sites / Generators</h3>
+          <ul>
+          <li><strong><a href="http://rapbot.jit.su/">RapBot</a></strong></li>
+          <li><a href="http://tinysubversions.com/extensions/moogle.html">Let Me Moogle That For You</a></li>
+          <li><a href="http://tinysubversions.com/allthethings/#word=vHvvSw$bfNlyxzZ">All the Things</a></li>
+          <li><strong><a href="http://tinysubversions.com/clickbait/">Clickbait</a></strong></li>
+          <li><a href="http://tinysubversions.com/stuff/porpenslime/">Porpenslime</a></li>
+          <li><strong><a href="http://tinysubversions.com/fuckvideogames/">Fuck Videogames</a></strong></li>
+          <li><strong><a href="http://tinysubversions.com/gengen/">GenGen</a></strong></li>
+          <li><a href="http://tinysubversions.com/gengen/gen.html?key=0AhU_yVabdqAFdGhKUm9SOWEwSkktOENodkVTeDlyaUE">Game Pitch Creator</a></li>
+          <li><a href="http://tinysubversions.com/q0rtmovies/">q0rt Movies</a></li>
+          <li><a href="http://tinysubversions.com/stuff/TIMEKILL/">TIMEKILL.CPP</a></li>
+          <li><a href="http://tinysubversions.com/stuff/chiasmus/">Uncle Darius' Instant Chiasmus</a></li>
+          <li><a href="http://tinysubversions.com/stuff/MarioCloudsCrit.pdf">Mario Clouds Critique</a></li>
+          <li><a href="http://tinysubversions.com/stuff/noun/">Nouns</a></li>
+          <li><a href="http://tinysubversions.com/stuff/contextExplorer/">Context Explorer</a></li>
+          <li><a href="http://tinysubversions.com/stuff/doctorwhaaa/">Doctor Whaaa</a></li>
+          <li><a href="http://tinysubversions.com/stuff/thisJustIn/">This Just In</a></li>
+          <li><a href="http://t.co/i45AmmSKGy">Why is this still a thing?</a></li>
+          <li><a href="http://tinysubversions.com/stuff/corevalues/">Core Values</a></li>
+          <li><a href="http://tinysubversions.com/stuff/jqProclamations/">jqProclamations</a></li>
+          <li><a href="http://tinysubversions.com/stuff/andPhilosophy/">and Philosophy</a></li>
+          <li><strong><a href="http://tinysubversions.com/pennyarcade/?word=%3FLqkyOVx%20%2C4102%20GkPxyB%20LFOI%20LTHV%20%3F4102%20GkPxV$.rvU*yB">Penny Arcade Strip Generator</a></strong></li>
+          <li><a href="http://tinysubversions.com/stuff/10rdtags/">10rd Tags</a></li>
+        </ul>
+        </div>
+        <div class="projects">
+          <ul>
+          <li><a href="http://tinysubversions.com/gengen/gen.html?key=0AhU_yVabdqAFdHA4Z0JLcHpYeEpXMWxQeU1jZ19qRVE">Stew Generator</a></li>
+          <li><strong><a href="http://tinysubversions.com/spelunkyGen/">Spelunky Generator Lessons</a></strong></li>
+          <li><strong><a href="http://tinysubversions.com/least/">The Three Least Powerful Women in Games</a></strong></li>
+          <li><strong><a href="http://blankschool.herokuapp.com/">Blank School</a></strong></li>
+          <li><a href="http://tinysubversions.com/stuff/baseball/">What it feels like in Boston right now</a></li>
+          <li><a href="http://tinysubversions.com/nanogenmo/novel-1.pdf">Novel 1</a></li>
+          <li><a href="http://tinysubversions.com/stuff/reduxfonts/">Redux Fonts</a></li>
+          <li><strong><a href="http://tinysubversions.com/nanogenmo/novel-2.pdf">Novel 2 / Teens Wander Around a House</a></strong></li>
+          <li><strong><a href="http://tinysubversions.com/stuff/youMustBe/">You Must Be</a></strong></li>
+          <li><a href="http://tinysubversions.com/stuff/youMustBeMinus8/">You Must Be (Minus 8 Words)</a></li>
+          <li><strong><a href="http://tinysubversions.com/stuff/cyberfiction/">Cyberpunk Generator</a></strong></li>
+          <li><strong><a href="http://tinysubversions.com/randomfriday/">Random Friday</a></strong></li>
+          <li><strong><a href="http://tinysubversions.com/stuff/lastwords/">Last Words</a></strong></li>
+          <li><a href="http://tinysubversions.com/stuff/enhance/">Enhance the Experience of the Millennials</a></li>
+          </ul>
+          <h3>Code</h3>
+          <ul>
+          <li><a href="https://gist.github.com/dariusk/4651698">Twine Screen Shake</a></li>
+          <li><a href="https://gist.github.com/dariusk/4644530">Twine Wordnik</a></li>
+          <li><a href="https://github.com/dariusk/wordnik-bb">Wordnik-BB</a></li>
+          <li><a href="https://github.com/dariusk/tweetYourArchive">Tweet Your Archive</a></li>
+          <li><strong><a href="http://tinysubversions.com/gaunt/">Gaunt</a></strong></li>
+          <li><a href="https://github.com/dariusk/examplebot">Example Bot</a></li>
+          <li><a href="https://github.com/dariusk/grunt-init-textgen">grunt-init-textgen</a></li>
+          <li><a href="https://github.com/dariusk/grunt-init-twitter-bot">grunt-init-twitter-bot</a></li>
+          <li><strong><a href="https://github.com/dariusk/wordfilter">Wordfilter</a></strong></li>
+          </ul>
+        </div>
+      </div>
+      <div class="slide">
+        <h2>How did I get here?</h2>
+      </div>
+      <div class="slide">
+        <h1>videogames</h1>
+        <img src="http://farm1.staticflickr.com/8/6778835_520984bb0a_z.jpg?zz=1">
+      </div>
+      <div class="slide">
+        <h2>Game Jams</h2>
+        <img src="http://farm1.staticflickr.com/4/6035658_aab70ca081_z.jpg?zz=1">
+      </div>
+      <div class="slide">
+        <h2>"Finish Your Game"</h2>
+        <img src="http://media1.gameinformer.com/imagefeed/featured/features/chrishecker/hecker_610.jpg">
+      </div>
+      <div class="slide">
+        <img src="http://cdn.gifbay.com/2013/03/dont_care_im_a_bear-40095.gif">
+      </div>
+      <div class="slide">
+        <h2>Plane Jams</h2>
+        <img src="http://tinysubversions.com/game/demos.png">
+      </div>
+      <div class="slide">
+        <h1>But how</h1>
+      </div>
+      <div class="slide">
+        <h2>Write everything down</h2>
+        <iframe src="https://docs.google.com/document/d/1GNE_OL_Ly4t5qNDE8RcWVZ-xiGaGELF86StP3ea0Tk0/edit" height=400 width=600></iframe>
+      </div>
+      <div class="slide">
+        <h1>Attempt EVERYTHING</h1>
+        <h2>You are making an ECOSYSTEM OF PROJECTS</h2>
+        <iframe src="http://subtweets.herokuapp.com/" height=400 width=400></iframe>
+      </div>
+      <div class="slide">
+        <h2>a few weeks later...</h2>
+        <iframe src="http://tinysubversions.com/nanogenmo/novel-2.pdf" height=400 width=600></iframe>
+      </div>
+      <div class="slide">
+        <h2>2009: 1 project, culmination of ~200 hours of research/work</h2>
+        <video controls src="images/meggy.mp4">
+      </div>
+      <div class="slide">
+        <h2>2009: 1 project, culmination of ~200 hours of research/work</h2>
+        <video controls src="images/meggy.mp4">
+      </div>
+      <div class="slide">
+        <h2>2009: 1 project, culmination of ~200 hours of research/work</h2>
+        <video controls src="images/meggy.mp4">
+      </div>
+      <div class="slide">
+        <h2>2009: 1 project, culmination of ~200 hours of research/work</h2>
+        <video controls src="images/meggy.mp4">
+      </div>
+      <div class="slide">
+        <h1>Fuck. Videogames.</h1>
+        <p>-Darius Kazemi</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p style="font-size:0.8em">Published May 3, 2013. Adapted from <a href='http://www.bostonindies.com/2013/04/03/march-2013-meeting-writeup-lightning-talks/'>a talk I gave to Boston Indies</a> on March 18, 2013. Special thanks to the people who attended that talk, who convinced me I should publish this. This slide deck is powered by Greg Smith's absolutely incredible, dead-simple tool <a href="https://github.com/incompl/slide">Slide</a>.</p>
+      </div>
+    </div>
+    <script type="text/javascript">
+    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+    </script>
+    <script type="text/javascript">
+    try {
+      var pageTracker = _gat._getTracker("UA-339043-1");
+      pageTracker._trackPageview();
+    } catch(err) {}
+</script>
+  </body>
+</html>
